@@ -1,0 +1,20 @@
+{
+    "server":{
+        "port":8081,
+        "ip":"127.0.0.1"
+    },
+    "client":{
+      "port":8084,
+      "ip":"127.0.0.1"
+    },
+    "db":{
+        "host":"mongodb://localhost",
+        "port":27017,
+        "name":"thoughtful"
+    },
+    "auth":{
+        "google":{
+            "callbackURL":"http://localhost:8082/google/auth/callback"
+        }
+    }
+}

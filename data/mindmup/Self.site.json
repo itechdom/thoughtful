@@ -1,0 +1,483 @@
+{
+  "id": "root",
+  "formatVersion": 3,
+  "ideas": {
+    "1": {
+      "id": 1,
+      "title": "Self.site",
+      "ideas": {
+        "1": {
+          "title": "Concepts",
+          "id": "2.34737ef5ea69a483",
+          "ideas": {
+            "2": {
+              "title": "Portfolio",
+              "ideas": {
+                "1": {
+                  "title": "Amgen",
+                  "id": "124.62e50382c833386c",
+                  "attr": {
+                    "note": {
+                      "index": 63,
+                      "text": "I built a custom CMS on top of Extjs and used Box api. The CMS handled displaying custom pages according to tags they added in Box. I had to consume the data and map it with a configuration file the Client (Amgen) specified. I also had to deal with deployments into AWS. I spun up an Nginx proxy to deal with CORS."
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Landdox",
+                  "id": "125.62e50382c833386c",
+                  "attr": {
+                    "note": {
+                      "index": 64,
+                      "text": "I used Nodejs to build new web services for their Land management app. I also advised that they move to Phantomjs for their custom PDF and Excel reports and wrote the web services for it. I used D3 to display all their visualizations on the front-end. I also had many meetings with their team to discuss ways that they can restructure their application."
+                    }
+                  }
+                },
+                "3": {
+                  "title": "MWI",
+                  "id": "126.62e50382c833386c",
+                  "attr": {
+                    "note": {
+                      "index": 65,
+                      "text": "a vet supply company. I was in charge of building the UI for their new E-commerce platform. The project took around a year to complete. I wrote the front-end in  ES6 JavaScript with Angularjs. I also used Sass, Webpack and Gulp as part of the build. Their E-commerce platform had to handle a large amount of data. The challenge in this project was figuring out a way to implement state change in Angular without affecting performance. I resorted to using Angular-Flux and was able to push state changes into the application to avoid the performance bottleneck of scope watches."
+                    }
+                  }
+                },
+                "4": {
+                  "title": "AMEX Plenti",
+                  "id": "127.62e50382c833386c",
+                  "attr": {
+                    "note": {
+                      "index": 66,
+                      "text": "I built a prototype for Amex's Plenti to be tested by a UX team. The application consisted of two pages: a product page and a detail page. I used React.js and Flux."
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Zahra",
+                  "id": "128.62e50382c833386c",
+                  "attr": {
+                    "note": {
+                      "index": 67,
+                      "text": "I built a complete system for Zahra. The system managed products, events and educational \"e-brochures\". I used Wordpress as a Backend with a native iOS app on the front-end. I later ported that app to Cordova."
+                    }
+                  }
+                },
+                "6": {
+                  "title": "Space X",
+                  "id": "129.62e50382c833386c",
+                  "attr": {
+                    "note": {
+                      "index": 68,
+                      "text": "Space X, I built a simple project management tool for one of their departments. The department wanted to keep track of different employee's allocations. I used Angularjs, Sass and Webpack."
+                    }
+                  }
+                }
+              },
+              "id": "13.34737ef5ea69a483",
+              "attr": {
+                "collapsed": true
+              }
+            },
+            "3": {
+              "title": "Contact",
+              "ideas": {
+                "1": {
+                  "title": "Email",
+                  "attr": {
+                    "style": {
+                      "width": 251
+                    }
+                  },
+                  "id": "16.34737ef5ea69a483",
+                  "ideas": {
+                    "1": {
+                      "title": "osamah.net.m@gmail.com",
+                      "id": "130.62e50382c833386c"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Github",
+                  "ideas": {
+                    "1": {
+                      "title": "https://github.com/itechdom",
+                      "id": "18.34737ef5ea69a483"
+                    }
+                  },
+                  "id": "17.34737ef5ea69a483"
+                },
+                "3": {
+                  "title": "Linkedin",
+                  "ideas": {
+                    "1": {
+                      "title": "https://www.linkedin.com/in/osama-alghanmi-0957bb28",
+                      "id": "20.34737ef5ea69a483"
+                    }
+                  },
+                  "id": "19.34737ef5ea69a483"
+                }
+              },
+              "id": "15.34737ef5ea69a483"
+            },
+            "1.5": {
+              "title": "Home",
+              "ideas": {
+                "1": {
+                  "title": "Intro",
+                  "id": "7.34737ef5ea69a483",
+                  "attr": {
+                    "note": {
+                      "index": 5,
+                      "text": "Welcome to my personal Site. Checkout About for my background as well as my portfolio page for some of my work. Don't hesitate to contact me if you have any questions."
+                    }
+                  }
+                }
+              },
+              "id": "6.34737ef5ea69a483",
+              "attr": {
+                "collapsed": true
+              }
+            },
+            "1.75": {
+              "title": "About",
+              "attr": {
+                "note": {
+                  "index": 230,
+                  "text": "I am full stack developer with 7 years of professional experience. My main stack is composed of JavaScript: React, Angularjs, Redux, Mobx, RxJS, Webpack are some of what I know on the front-end. On the back-end, I am familiar with Node: Express, PostgreSQL on the back-end. I have been focusing my efforts in the last year on working with Hybrid Mobile apps in React Native. \n\nI have worked in most settings of software development. I have run my own agency, worked at an agency, in-house on a product team, and freelanced. My diverse background empowers me to bring a unique perspective into any technical issue I am faced with."
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Link to Resume",
+                  "ideas": {
+                    "1": {
+                      "title": "https://docs.google.com/document/d/1klGwx31SQNdQQdseVw8MJW67rGf7ucjAtenGjiylTQo/edit?usp=sharing",
+                      "id": "10.34737ef5ea69a483"
+                    }
+                  },
+                  "id": "9.34737ef5ea69a483",
+                  "attr": {
+                    "collapsed": true
+                  }
+                },
+                "2": {
+                  "title": "Companies I have worked with",
+                  "id": "23.273286186ffe8bde",
+                  "ideas": {
+                    "1": {
+                      "title": "Career Folder",
+                      "ideas": {
+                        "1": {
+                          "title": "https://drive.google.com/drive/folders/0B9tPYCpuqoIrflJ3eVJTSEl2dFY5blFacXVRaU1zNHg3VWg4WjV1TnZ3VHJzZXd3NW1YR1U?usp=sharing",
+                          "id": "26.273286186ffe8bde"
+                        }
+                      },
+                      "id": "25.273286186ffe8bde",
+                      "attr": {
+                        "collapsed": true
+                      }
+                    },
+                    "2": {
+                      "title": "Charter",
+                      "id": "27.273286186ffe8bde",
+                      "ideas": {
+                        "1": {
+                          "title": "https://drive.google.com/open?id=0B9tPYCpuqoIrfl9ubTZBazB5VDlHSVVBM0lyaWtIeFVqNGFxMmwtUzJua3hjRUZEZEtwNVE",
+                          "id": "28.273286186ffe8bde"
+                        }
+                      },
+                      "attr": {
+                        "collapsed": true
+                      }
+                    },
+                    "3": {
+                      "title": "Landdox",
+                      "id": "29.273286186ffe8bde"
+                    },
+                    "6": {
+                      "title": "AMGEN",
+                      "id": "32.273286186ffe8bde"
+                    },
+                    "7": {
+                      "title": "Amex",
+                      "id": "33.273286186ffe8bde"
+                    },
+                    "8": {
+                      "title": "Zahra",
+                      "id": "34.273286186ffe8bde"
+                    },
+                    "10": {
+                      "title": "PocketScience",
+                      "id": "36.273286186ffe8bde"
+                    },
+                    "2.5": {
+                      "title": "Thinktank",
+                      "id": "35.273286186ffe8bde"
+                    },
+                    "1.5": {
+                      "title": "Space X",
+                      "id": "30.273286186ffe8bde"
+                    },
+                    "1.75": {
+                      "title": "MWI",
+                      "id": "31.273286186ffe8bde"
+                    }
+                  },
+                  "attr": {
+                    "collapsed": true
+                  }
+                },
+                "4": {
+                  "title": "My Skills",
+                  "ideas": {
+                    "1": {
+                      "title": "Web",
+                      "ideas": {
+                        "1": {
+                          "title": "Front-end",
+                          "ideas": {
+                            "1": {
+                              "title": "Ramda",
+                              "id": "54.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "2": {
+                              "title": "RxJS",
+                              "id": "55.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "3": {
+                              "title": "Redux",
+                              "id": "56.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "6": {
+                              "title": "Typescript",
+                              "id": "96.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "8": {
+                              "title": "Webpack",
+                              "id": "59.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "9": {
+                              "title": "Gulp",
+                              "id": "60.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "0.5": {
+                              "title": "React",
+                              "id": "57.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "0.75": {
+                              "title": "Angular 1 and 2",
+                              "id": "94.273286186ffe8bde",
+                              "ideas": {},
+                              "attr": {}
+                            }
+                          },
+                          "id": "41.273286186ffe8bde",
+                          "attr": {
+                            "collapsed": true
+                          }
+                        },
+                        "5": {
+                          "title": "Backend",
+                          "id": "98.273286186ffe8bde",
+                          "ideas": {
+                            "1": {
+                              "title": "Nodejs",
+                              "id": "67.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "2": {
+                              "title": "Rails",
+                              "id": "72.273286186ffe8bde",
+                              "attr": {}
+                            },
+                            "3": {
+                              "title": "Wordpress",
+                              "id": "75.273286186ffe8bde",
+                              "attr": {}
+                            }
+                          },
+                          "attr": {
+                            "collapsed": true
+                          }
+                        },
+                        "15": {
+                          "title": "Testing",
+                          "ideas": {
+                            "1": {
+                              "title": "Karma",
+                              "id": "49.273286186ffe8bde"
+                            },
+                            "2": {
+                              "title": "Jasmine",
+                              "id": "50.273286186ffe8bde"
+                            },
+                            "3": {
+                              "title": "Mocha",
+                              "id": "51.273286186ffe8bde"
+                            },
+                            "4": {
+                              "title": "Chai",
+                              "id": "52.273286186ffe8bde"
+                            }
+                          },
+                          "id": "48.273286186ffe8bde",
+                          "attr": {
+                            "collapsed": true
+                          }
+                        }
+                      },
+                      "id": "40.273286186ffe8bde",
+                      "attr": {
+                        "collapsed": true
+                      }
+                    },
+                    "2": {
+                      "title": "Mobile",
+                      "ideas": {
+                        "1": {
+                          "title": "Hybrid",
+                          "ideas": {
+                            "2": {
+                              "title": "React Native",
+                              "attr": {
+                                "style": {
+                                  "background": "#008080"
+                                }
+                              },
+                              "id": "79.273286186ffe8bde"
+                            },
+                            "3": {
+                              "title": "Cordova",
+                              "id": "80.273286186ffe8bde",
+                              "attr": {}
+                            }
+                          },
+                          "id": "77.273286186ffe8bde"
+                        }
+                      },
+                      "id": "76.273286186ffe8bde",
+                      "attr": {
+                        "collapsed": true
+                      }
+                    },
+                    "4": {
+                      "title": "On the Side",
+                      "id": "86.273286186ffe8bde",
+                      "ideas": {
+                        "1": {
+                          "title": "Clojure",
+                          "id": "87.273286186ffe8bde"
+                        },
+                        "2": {
+                          "title": "Elm",
+                          "id": "89.273286186ffe8bde"
+                        },
+                        "3": {
+                          "title": "Python",
+                          "id": "90.273286186ffe8bde"
+                        }
+                      },
+                      "attr": {
+                        "collapsed": true
+                      }
+                    },
+                    "7": {
+                      "title": "Implementation",
+                      "id": "113.68160fd40c523463",
+                      "ideas": {
+                        "1": {
+                          "title": "Gridlist",
+                          "id": "114.68160fd40c523463",
+                          "ideas": {
+                            "1": {
+                              "title": "http://www.material-ui.com/#/components/grid-list",
+                              "id": "115.68160fd40c523463"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "collapsed": true
+                      }
+                    },
+                    "17": {
+                      "title": "Resources",
+                      "id": "110.25baef3b8f7b1a9b",
+                      "ideas": {
+                        "1": {
+                          "title": "All Dev Icons",
+                          "id": "111.25baef3b8f7b1a9b",
+                          "ideas": {
+                            "1": {
+                              "title": "http://devicon.fr/",
+                              "id": "112.25baef3b8f7b1a9b"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "collapsed": true
+                      }
+                    }
+                  },
+                  "id": "39.273286186ffe8bde",
+                  "attr": {
+                    "collapsed": true
+                  }
+                }
+              },
+              "id": "8.34737ef5ea69a483"
+            }
+          }
+        },
+        "-1": {
+          "title": "Resources",
+          "id": "3.34737ef5ea69a483",
+          "ideas": {
+            "1": {
+              "title": "Career Folder",
+              "id": "21.34737ef5ea69a483",
+              "ideas": {
+                "1": {
+                  "title": "https://drive.google.com/drive/folders/0B9tPYCpuqoIrflJ3eVJTSEl2dFY5blFacXVRaU1zNHg3VWg4WjV1TnZ3VHJzZXd3NW1YR1U?usp=sharing",
+                  "id": "22.34737ef5ea69a483"
+                }
+              }
+            },
+            "2": {
+              "title": "My hired profile",
+              "ideas": {
+                "1": {
+                  "title": "https://hired.com/profile",
+                  "id": "12.34737ef5ea69a483"
+                }
+              },
+              "id": "11.34737ef5ea69a483"
+            },
+            "3": {
+              "title": "host my site on Github",
+              "id": "92.273286186ffe8bde",
+              "ideas": {
+                "1": {
+                  "title": "https://pages.github.com/",
+                  "id": "93.273286186ffe8bde"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "attr": {},
+  "title": "Self.site",
+  "links": []
+}

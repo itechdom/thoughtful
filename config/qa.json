@@ -1,0 +1,20 @@
+{
+    "server":{
+        "port":8081,
+        "ip":"ec2-34-210-228-39.us-west-2.compute.amazonaws.com"
+    },
+    "client":{
+      "port":8084,
+      "ip":"127.0.0.1"
+    },
+    "db":{
+        "host":"mongodb://localhost",
+        "port":27017,
+        "name":"branchit"
+    },
+    "auth":{
+        "google":{
+            "callbackURL":"http://localhost:8082/google/auth/callback"
+        }
+    }
+}
