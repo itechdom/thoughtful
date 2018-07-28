@@ -21,6 +21,7 @@ app.set("superSecret", config.secret); // secret variable
 // Import web services ========================================
 // =================================================================
 var ChatLog = require("./thoughtful-service/models/chat-log"); // get our mongoose model
+var User = require("./thoughtful-service/models/user"); // get our mongoose model
 
 import authService from "./auth-service/auth-service.js";
 const authApi = authService({ app, User });
