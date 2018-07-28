@@ -35,8 +35,8 @@ const translateApi = translateService({ app, User, config });
 import thoughtfulService from "./thoughtful-service/thoughtful-service.js";
 const thoughtfulApi = thoughtfulService({ app, User, config });
 
-// import passportService from './passport-service/passport-service.js'
-// const passportApi = passportService({app,User,config});
+import passportService from './passport-service/passport-service.js'
+const passportApi = passportService({app,User,config});
 
 import socketService from "./socket-service/socket-service.js";
 const socketApi = socketService({
@@ -74,11 +74,8 @@ app.use(morgan("dev"));
 // Register Services
 // ==========
 
-//app.use('/', authApi);
 app.use("/hello", helloApi);
-//app.use('/db',dbApi);
-//app.use('/',passportApi);
-
+app.use('/',passportApi);
 app.use("/socket-io", socketApi);
 app.use("/", translateApi);
 app.use("/", thoughtfulApi);
