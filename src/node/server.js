@@ -53,6 +53,13 @@ const socketApi = socketService({
     if (eventName === "chat") {
       let { username, text, translations } = eventData;
       fs.appendFile(__dirname + "/log.txt", "\rn" + JSON.stringify(eventData));
+      let date = new Date();
+      let chatLog = new ChatLog({ username, text, translations, date });
+      chatLog.save((err)=>{
+        if(err){
+          console.error(err);
+        }
+      })
       //store the Idea here
       //by username
     }
