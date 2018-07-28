@@ -8,19 +8,25 @@ var morgan = require("morgan");
 var mongoose = require("mongoose");
 var config = require("config"); // get our config file
 var fs = require("fs");
+var autoIncrement = require("mongoose-auto-increment");
 
 // =================================================================
 // configuration ===================================================
 // =================================================================
 var port = config.get("server.port"); // used to create, sign, and verify tokens
 var ip = config.get("server.ip");
-// mongoose.connect(`${config.get("db.host")}:${config.get("db.port")}`); // connect to database
+var connection = mongoose.createConnection(
+  `${config.get("db.host")}:${config.get("db.port")}/${config.get("db.name")}`
+);
+autoIncrement.initialize(connection);
 app.set("superSecret", config.secret); // secret variable
 
 // =================================================================
 // Import web services ========================================
 // =================================================================
-var ChatLog = require("./thoughtful-service/models/chat-log"); // get our mongoose model
+var ChatLog = require("./thoughtful-service/models/chat-log")({
+  autoIncrement
+}); // get our mongoose model
 var User = require("./thoughtful-service/models/user"); // get our mongoose model
 
 import authService from "./auth-service/auth-service.js";
@@ -35,8 +41,8 @@ const translateApi = translateService({ app, User, config });
 import thoughtfulService from "./thoughtful-service/thoughtful-service.js";
 const thoughtfulApi = thoughtfulService({ app, User, config });
 
-import passportService from './passport-service/passport-service.js'
-const passportApi = passportService({app,User,config});
+import passportService from "./passport-service/passport-service.js";
+const passportApi = passportService({ app, User, config });
 
 import socketService from "./socket-service/socket-service.js";
 const socketApi = socketService({
@@ -75,7 +81,7 @@ app.use(morgan("dev"));
 // ==========
 
 app.use("/hello", helloApi);
-app.use('/',passportApi);
+app.use("/", passportApi);
 app.use("/socket-io", socketApi);
 app.use("/", translateApi);
 app.use("/", thoughtfulApi);
