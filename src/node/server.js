@@ -20,8 +20,7 @@ app.set("superSecret", config.secret); // secret variable
 // =================================================================
 // Import web services ========================================
 // =================================================================
-var User = require("./db-service/user"); // get our mongoose model
-var ChatLog = require("./db-service/chat-log"); // get our mongoose model
+var ChatLog = require("./thoughtful-service/models/chat-log"); // get our mongoose model
 
 import authService from "./auth-service/auth-service.js";
 const authApi = authService({ app, User });
@@ -32,8 +31,8 @@ const helloApi = helloService({ app, User });
 import translateService from "./translate-service/translate-service.js";
 const translateApi = translateService({ app, User, config });
 
-import dbService from "./db-service/db-service.js";
-const dbApi = dbService({ app });
+import thoughtfulService from "./thoughtful-service/thoughtful-service.js";
+const thoughtfulApi = thoughtfulService({ app, User, config });
 
 // import passportService from './passport-service/passport-service.js'
 // const passportApi = passportService({app,User,config});
@@ -45,10 +44,10 @@ const socketApi = socketService({
   port,
   onEvent: (eventName, eventData) => {
     if (eventName === "chat") {
-      console.log(eventData);
-      //save to DB here
       let { username, text, translations } = eventData;
       fs.appendFile(__dirname + "/log.txt", "\rn" + JSON.stringify(eventData));
+      //store the Idea here
+      //by username
     }
   }
 });
@@ -81,6 +80,7 @@ app.use("/hello", helloApi);
 
 app.use("/socket-io", socketApi);
 app.use("/", translateApi);
+app.use("/", thoughtfulApi);
 
 // =================================================================
 // start the server ================================================

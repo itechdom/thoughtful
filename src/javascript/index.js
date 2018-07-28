@@ -6,6 +6,7 @@ import queryString from "query-string";
 import moment from "moment";
 
 export class Thoughtful {
+  //store just ids
   @observable ideaList = {};
   @observable level;
   @observable maxLevel;
