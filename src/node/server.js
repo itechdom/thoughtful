@@ -55,13 +55,12 @@ const socketApi = socketService({
       fs.appendFile(__dirname + "/log.txt", "\rn" + JSON.stringify(eventData));
       let date = new Date();
       let chatLog = new ChatLog({ username, text, translations, date });
-      chatLog.save((err)=>{
-        if(err){
+      chatLog.save((err, data) => {
+        console.log("after chat save", data);
+        if (err) {
           console.error(err);
         }
-      })
-      //store the Idea here
-      //by username
+      });
     }
   }
 });
